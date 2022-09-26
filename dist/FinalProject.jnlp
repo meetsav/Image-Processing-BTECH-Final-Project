@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="FinalProject.jnlp">
+  <information>
+    <title>FinalProject</title>
+    <vendor>HP</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="FinalProject.jar" size="1489186" download="eager" />
+    <jar href="lib\javafx-maven-plugin-8.7.0.jar" size="87212" download="eager" />
+    <jar href="lib\opencv-330.jar" size="400013" download="eager" />
+    <jar href="lib\scenebuilder-8.4.1-all.jar" size="9756814" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="FinalProject" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="finalproject.FinalProject"  name="FinalProject" />
+  <update check="always"/>
+</jnlp>
